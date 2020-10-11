@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+int x,y;
+printf("enter first number: ");
+scanf("%d",&x);
+printf("enter second number:");
+scanf("%d",&y);
+x=y;
+printf("after swapping ,x=%d\n",x);
+printf("after swapping,y=%d",y);
+return 0;
+}
